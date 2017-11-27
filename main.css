@@ -1,0 +1,60 @@
+/* need to bring in some libraries and set styles here */
+
+
+header { 
+    box-sizing: content-box;
+    border-width: 10px;
+    padding: 30px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: right;
+    background-color: #AAAAAA;
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Noto Serif', serif;
+}
+body {
+  background-color: #111111;
+}
+h2 {
+    text-align: center;
+    padding: 10px;
+    font-family: 'Noto Serif', serif;
+}
+p {
+  font-family: 'Noto Sans', san-serif;
+  line-height: 1.5;
+}
+
+#about {
+    box-sizing: content-box;
+    border-width: 10px;
+    padding: 30px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #39CCCC;
+}
+
+#portfolio {
+    box-sizing: content-box;
+    border-width: 10px;
+    padding: 30px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #AAAAAA;
+}
+
+#contact {
+    box-sizing: content-box;
+    border-width: 10px;
+    padding: 30px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #3D9970;
+}
