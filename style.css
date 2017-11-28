@@ -9,16 +9,18 @@ header {
     margin-left: auto;
     margin-right: auto;
     text-align: right;
-    background-color: #AAAAAA;
+    background-color: #AAA;
+}
+
+body {
+  background-color: #111;
 }
 
 h1 {
   text-align: center;
   font-family: 'Noto Serif', serif;
 }
-body {
-  background-color: #111111;
-}
+
 h2 {
     text-align: center;
     padding: 10px;
@@ -29,35 +31,53 @@ p {
   line-height: 1.5;
 }
 
+table {
+  border-collapse: collapse;
+  border: 5px solid #111;
+  width: 80%;
+}
+
+td {
+  width: 40%;
+  height: 2cm;
+  border: 1px solid #CCC;
+}
+
+.nav_button {
+  background-color: #FF4136;
+  border: 1px solid #FFF;
+  padding: 10px;
+}
+
 #about {
-    box-sizing: content-box;
-    border-width: 10px;
-    padding: 30px;
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: #39CCCC;
+  box-sizing: content-box;
+  border: 1px solid #111;
+  padding: 30px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #39CCCC;
 }
 
 #portfolio {
-    box-sizing: content-box;
-    border-width: 10px;
-    padding: 30px;
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: #AAAAAA;
+  box-sizing: content-box;
+  border: 1px solid #111;
+  padding: 30px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #AAA;
 }
 
 #contact {
-    box-sizing: content-box;
-    border-width: 10px;
-    padding: 30px;
-    width: 80%;
-    height: 600px;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: #3D9970;
+  box-sizing: content-box;
+  border: 1px solid #111;
+  padding: 30px;
+  width: 80%;
+  height: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #3D9970;
 }
 
 form {
@@ -96,7 +116,7 @@ form {
   
   input:focus, textarea:focus {
     /* To give a little highlight on active elements */
-    border-color: #000;
+    border-color: #111;
   }
   
   textarea {
@@ -116,3 +136,4 @@ form {
     /* This extra margin represent roughly the same space as the space
        between the labels and their text fields */
     margin-left: .5em;
+  }
