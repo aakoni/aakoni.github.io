@@ -1,34 +1,46 @@
-/* need to bring in some libraries and set styles here */
-
+/* Space reserved for inane comments */
 
 header { 
-    box-sizing: content-box;
-    border-width: 10px;
-    padding: 30px;
-    width: 90%;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: right;
-    background-color: #AAA;
+  box-sizing: content-box;
+  border: 1px solid #111;
+  border-radius: 5px;
+  padding: 30px;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: right;
+  background-color: #7C3F11;
 }
 
 body {
-  background-color: #111;
+  background-color: #333136;
+}
+
+div {
+  box-sizing: content-box;
+  border: 1px solid #111;
+  border-radius: 5px;
+  padding: 10px;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 h1 {
   text-align: center;
   font-family: 'Noto Serif', serif;
+  font-color: #333136;
 }
 
 h2 {
-    text-align: center;
-    padding: 10px;
-    font-family: 'Noto Serif', serif;
+  text-align: center;
+  font-family: 'Noto Serif', serif;
+  font-color: #333136;
 }
 p {
   font-family: 'Noto Sans', san-serif;
   line-height: 1.5;
+  padding: 5px;
 }
 
 table {
@@ -38,102 +50,89 @@ table {
 }
 
 td {
-  width: 40%;
+  width: 50%;
   height: 2cm;
-  border: 1px solid #CCC;
+  border: 1px solid #333136;
   text-align: center;
+  font-family: 'Noto Sans', sans-serif;
 }
 
 .nav_button {
-  background-color: #FF4136;
-  border: 1px solid #FFF;
-  padding: 10px;
+  background-color: #F9CD50;
+  border: 1px solid #333136;
+  border-radius: 5px;
+  padding: 8px;
+  font-family: 'Noto Sans', sans-serif;
 }
 
 #about {
-  box-sizing: content-box;
-  border: 1px solid #111;
-  padding: 30px;
-  width: 80%;
-  margin-left: auto;
-  margin-right: auto;
   background-color: #39CCCC;
 }
 
 #portfolio {
-  box-sizing: content-box;
-  border: 1px solid #111;
-  padding: 30px;
-  width: 80%;
-  margin-left: auto;
-  margin-right: auto;
-  background-color: #AAA;
+  background-color: #40BED5;
 }
 
 #contact {
-  box-sizing: content-box;
-  border: 1px solid #111;
-  padding: 30px;
-  width: 80%;
-  margin-left: auto;
-  margin-right: auto;
-  background-color: #3D9970;
+  background-color: #7C3F11;
 }
 
 form {
-    /* Just to center the form on the page */
-    margin: 0 auto;
-    width: 400px;
-    /* To see the outline of the form */
-    padding: 1em;
-    border: 1px solid #CCC;
-    border-radius: 1em;
-  }
-  
-  form div + div {
-    margin-top: 1em;
-  }
-  
-  label {
-    /* To make sure that all labels have the same size and are properly aligned */
-    display: inline-block;
-    width: 90px;
-    text-align: right;
-  }
-  
-  input, textarea {
-    /* To make sure that all text fields have the same font settings
-       By default, textareas have a monospace font */
-    font: 1em sans-serif;
-  
-    /* To give the same size to all text fields */
-    width: 300px;
-    box-sizing: border-box;
-  
-    /* To harmonize the look & feel of text field border */
-    border: 1px solid #999;
-  }
-  
-  input:focus, textarea:focus {
-    /* To give a little highlight on active elements */
-    border-color: #111;
-  }
-  
-  textarea {
-    /* To properly align multiline text fields with their labels */
-    vertical-align: top;
-  
-    /* To give enough room to type some text */
-    height: 5em;
-  }
-  
-  .button {
-    /* To position the buttons to the same position of the text fields */
-    padding-left: 90px; /* same size as the label elements */
-  }
-  
-  button {
-    /* This extra margin represent roughly the same space as the space
-       between the labels and their text fields */
-    margin-left: .5em;
-  }
+  /* Just to center the form on the page */
+  margin: 0 auto;
+  width: 400px;
+  /* To see the outline of the form */
+  padding: 1em;
+  border: 1px solid #333136;
+  border-radius: 1em;
+}
+
+form div + div {
+  margin-top: 1em;
+}
+
+label {
+  /* To make sure that all labels have the same size and are properly aligned */
+  display: inline-block;
+  width: 90px;
+  text-align: right;
+  font-family: 'Noto Sans', sans-serif;
+}
+
+input, textarea {
+  /* To make sure that all text fields have the same font settings
+     By default, textareas have a monospace font */
+  font-family: 'Noto Sans', sans-serif;
+  font: 1em;
+
+  /* To give the same size to all text fields */
+  width: 300px;
+  box-sizing: border-box;
+
+  /* To harmonize the look & feel of text field border */
+  border: 1px solid #333136;
+}
+
+input:focus, textarea:focus {
+  /* To give a little highlight on active elements */
+  border-color: #333136;
+}
+
+textarea {
+  /* To properly align multiline text fields with their labels */
+  vertical-align: top;
+
+  /* To give enough room to type some text */
+  height: 5em;
+}
+
+.button {
+  /* To position the buttons to the same position of the text fields */
+  padding-left: 90px; /* same size as the label elements */
+}
+
+button {
+  /* This extra margin represent roughly the same space as the space
+     between the labels and their text fields */
+  margin-left: .5em;
+}
