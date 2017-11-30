@@ -28,14 +28,14 @@ h1 {
 text-align: center;
 font-size: 36px;
 font-family: 'Noto Serif', serif;
-font-color: #333136;
+font-color: #43BBC9;
 }
 
 h2 {
   text-align: center;
   font-size: 36px;
   font-family: 'Noto Serif', serif;
-  font-color: #F9CD50;
+  font-color: #43BBC9;
 }
 
 hr {
@@ -111,6 +111,7 @@ label {
   width: 90px;
   text-align: left;
   font-family: 'Noto Sans', sans-serif;
+  color: #F9CD50;
 }
 
 input, textarea {
