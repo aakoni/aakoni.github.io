@@ -2,67 +2,124 @@
 
 <html lang='en'>
 
-    <head>
-        <meta charset = 'utf-8'>
-        <link href="https://fonts.googleapis.com/css?family=Noto+Sans|Noto+Serif" rel="stylesheet">
-        <link rel="stylesheet" type="text/css" href="/style.css">
-        <title>Konings Portfolio</title>
-    </head>
+  <head>
+    <meta charset = 'utf-8'>
+    <link href='https://fonts.googleapis.com/css?family=Noto+Sans|Noto+Serif' rel='stylesheet'>
+    <link rel='stylesheet' href='css/style.css'>
+    <title>A Konings Portfolio</title>
+  </head>
 
-    <body>
-        <header>
-            <!-- LOGO -->
-            <h2>Name | Portfolio</h2>
-            <!-- NAVIGATION -->
-            <nav>
-                <ul>
-                    <li><a class="nav_button" href='index.html#services'>Services</a></li>
-                    <li><a class="nav_button" href='index.html#about'>About</a></li>
-                    <li><a class="nav_button" href='index.html#contact'>Contact</a></li> 
-                </ul>  
-            </nav>
-        </header>
+  <body>
+    <header>
+    <!-- LOGO -->
+      <h2 id='page-header'>
+        <img src='images/profile.jpg' alt='profile pic'>A Konings | <a href='index.html#footer' class='is-disabled'>Portfolio</a>
+      </h2>
+    <!-- NAVIGATION -->
+      <nav id='main-navigation'>
+        <ul>
+          <li><a class="nav_button" href='index.html#services'>Services</a></li>
+          <li><a class="nav_button" href='index.html#about'>About</a></li>
+          <li><a class="nav_button" href='index.html#testimonials'>Testimonials</a></li> 
+        </ul>  
+      </nav>
+    </header>
 
-        <div id='main'>
-            <div id='about'>
-            <p><strong>Coder. Cat Herder. Sword Fighter.</strong></p>
-            <p><em>Specializing in coffee, craft spirits, & code.</em></p>
-            <hr/>
-            <!-- <img src="#" justify="right"> -->
-            </div>
-
-            <div id='services'>
-                <h2>Services</h2>
-                    <table>
-                        <tr><td>Coming Soon</td><td>Coming Soon</td></tr>
-                        <tr><td>Coming Soon</td><td>Coming Soon</td></tr>
-                        <tr><td>Coming Soon</td><td>Coming Soon</td></tr>
-                    </table>
-            </div>
-
-            <div id='contact'>
-                <h2>Contact</h2>
-                <form method="post">
-                    <div>
-                        <label for="name">Name:</label>
-                        <input type="text" id="name" name="user_name">
-                    </div>
-                    <div>
-                        <label for="mail">E-mail:</label>
-                        <input type="email" id="mail" name="user_mail">
-                    </div>
-                    <div>
-                        <label for="msg">Message:</label>
-                        <textarea id="msg" name="user_message"></textarea>
-                    </div>
-                    <div class="button">
-                        <button type="submit">Send</button>
-                    </div>
-                </form>
-            </div>
+    <div id='main'>
+      <div class="hero">
+        <div class='hero-content'>
+          <h1 class='hero-title'>Renaissance Programming</h1>
+          <p>Coding. Consulting. Caffeinating</p>
         </div>
-        <footer>
-            <!-- add links to github and linkedin here -->
-        </footer>
-    </body>
-    </html>
+      </div>
+    
+      <div class='site-section'>
+
+        <div class='section-header' id='services'>
+          <h2>Services</h2>
+        </div>
+
+        <div class='site-section-inside'>
+          <div class='service-box'>
+            <img src='images/code.png'>
+            <h4>JavaScript</h4>
+            <p>This is where I describe something that I can do</p>
+          </div>
+
+          <div class='service-box'>
+            <img src='images/business_analysis.png'>
+            <h4>Business Analysis</h4>
+            <p>This is where I describe something that I can do</p>
+          </div>
+        
+          <div class='service-box'>
+            <img src='images/projectmanagement.png'>
+            <h4>Project Management</h4>             
+            <p>This is where I describe something that I can do</p>
+          </div>
+
+        </div>
+
+      </div>
+    
+      <div class='about section-header' id='about'>
+        <h2>About Me</h2>
+        <p>
+          Hogshead bucko rigging American Main hang the jib booty handsomely gibbet nipper barkadeer. Broadside clipper loaded to the gunwalls transom yo-ho-ho tack boom ho draught topsail. Starboard gally nipperkin lugsail tender six pounders dance the hempen jig list grog blossom line.
+
+          Chase guns rigging strike colors capstan skysail Sink me Blimey scuppers long clothes Letter of Marque. Gally Pirate Round warp Letter of Marque mizzen overhaul fire in the hole ye wherry hearties. Hearties Spanish Main swing the lead six pounders cable quarterdeck aye man-of-war Privateer lass.
+        </p>
+      </div>
+
+      <section class='site-section testimonials-section-secondary'>
+        <div class='site-section-inside'>
+          <div class='section-header' id='testimonials'>
+            <h2>Testimonials</h2>
+          </div>
+
+          <div class='testimonial-box'>
+            <div class='testimonial-content'>
+              Killick rigging long boat marooned no prey, no pay Barbary Coast measured fer yer chains fore hearties rutters. Hardtack man-of-war to go on account gaff cutlass chase run a rig quarter port Shiver me timbers. Barkadeer barque jury mast bilge rat belay handsomely take a caulk aye grog Jolly Roger.
+            </div>
+            <div class='testimonial-author'>
+              <img src='images/white_beard.png'>
+              <h5>John Doe</h5>
+              <span>Chief Ninja</span>
+            </div>
+          </div>
+
+          <div class='testimonial-box'>
+            <div class='testimonial-content'>
+              Gangway red ensign yard pressgang carouser Blimey rope's end killick log crack Jennys tea cup. Provost fire in the hole square-rigged red ensign Jack Ketch Davy Jones' Locker belay lateen sail spike cackle fruit. Yard crow's nest wherry take a caulk ho clap of thunder fluke Buccaneer measured fer yer chains log.
+            </div>
+            <div class='testimonial-author'>
+              <img src='images/blue_bob.png'>
+              <h5>Jane Dough</h5>
+              <span>All Knowing</span>
+            </div>
+          </div>
+
+          <div class='testimonial-box'>
+            <div class='testimonial-content'>
+              Nelsons folly to go on account hail-shot skysail lookout lateen sail long boat parley quarter rutters. Reef sails barque gangway coffer tackle grapple haul wind stern scourge of the seven seas parrel. Clap of thunder spyglass boatswain yo-ho-ho league maroon spirits fore barkadeer long boat.
+            </div>
+            <div class='testimonial-author'>
+              <img src='images/orange_beard.png'>
+              <h5>Jian Do</h5>
+              <span>Fire Chief</span>
+            </div>
+          </div>
+
+        </div>
+
+      </section>
+
+    </div>
+
+    <!-- FOOTER -->
+    <footer id='footer'>
+      <img src='images/profile.jpg' alt='my profile'>
+      <span>My Portfolio<br />&copy; 2018</span>
+    </footer>
+  </body>
+</html>

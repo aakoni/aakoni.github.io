@@ -1,0 +1,261 @@
+/* need to bring in some libraries and set styles here */
+
+
+body {
+  margin: 0;
+  font-family: 'Noto Sans', sans-serif;
+  color: blue;
+  text-align: center;
+}
+
+header {
+  background: #222222;
+  color: #ffffff;
+  padding: 20px 30px;
+}
+
+header #page-header {
+  color: #ffffff;
+  text-decoration: none;
+  width: 49%;
+  display: inline-block;
+}
+
+header img {
+  width: 50px;
+  border-radius: 50%;
+  margin-left: -200px;
+  margin-right: 18px;
+  vertical-align: middle;
+}
+
+header h2 {
+  font-size: 16px;
+}
+
+header #main-navigation {
+  width: 49%;
+  display: inline-block;
+  text-align: right;
+}
+
+header #main-navigation ul {
+  list-style: none;
+  padding: 0;
+}
+
+header #main-navigation ul li {
+  display: inline-block;
+}
+
+header #main-navigation ul li a {
+  color: #ffffff;
+  text-decoration: none;
+  padding: 10px 15px;
+}
+
+header #main-navigation ul li a:hover {
+  background: #444444;
+  border-radius: 3px;
+  transition: 0.3s ease all;
+}
+
+footer {
+  background: #222222;
+  color: #777777;
+  padding: 40px;
+  text-align: center;
+}
+
+footer img {
+  display: block;
+  border-radius: 5px;
+  width: 80px;
+  margin: 0 auto 10px;
+}
+
+.is-disabled {
+  color: currentColor;
+  text-decoration: none;
+}
+
+.hero {
+  min-height: 800px;
+  text-align: center;
+  background: #555555;
+  background-image: url('../images/background.jpg');
+  background-size: cover;
+}
+
+.hero-content {
+  color: #222222;
+  padding-top: 130px;
+  line-height: 1;
+}
+
+.hero-title {
+  margin: 0;
+  font-size: 100px;
+  font-family: 'Noto Serif', serif;
+}
+
+.hero-content p {
+  font-size: 50px;
+  font-family: 'Noto Serif', serif;
+  margin-bottom: 60px;
+}
+
+.hero-content a {
+  color: #ffffff;
+  border: 3px solid #ffffff;
+  border-radius: 3px;
+  padding: 15px 30px;
+  margin-right: 20px;
+  text-decoration: none;
+  font-size: 28px;
+}
+
+.site-section {
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+
+.section-header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.site-section-inside {
+  width: 80%;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.section-header h2 {
+  font-size: 30px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-weight: 300;
+  color: #777777;
+}
+
+.site-section-secondary {
+  background: #efefef;
+}
+
+.service-box {
+  display: inline-block;
+  width: 24%;
+  padding: 20px 30px;
+  line-height: 1;
+}
+
+.service-box img {
+  width: 80px;
+  margin-bottom: 15px;
+}
+
+.service-box h5 {
+  margin-top: 0;
+  margin-bottom: 15px;
+  font-size: 20px;
+  color: #999999;
+  text-transform: uppercase;
+  font-weight: 300;
+  letter-spacing: 2px;
+}
+
+.about {
+  background: #ecf0f1;
+  width: 100%;
+  padding: 50px 0;
+}
+
+.testimonial-box {
+  display: inline-block;
+  width: 27%;
+  padding: 20px 30px;
+}
+
+.testimonial-content {
+  background: #ecf0f1;
+  padding: 15px;
+  border-radius: 4px;
+  margin-bottom: 15px;
+}
+
+.testimonial-author img {
+  float: left;
+  width: 80px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+.testimonial-author h5 {
+  font-size: 18px;
+  margin: 0;
+  padding-top: 15px;
+}
+
+.testimonial-author span {
+  color: #999999;
+  font-size: 14px;
+}
+
+/* mobile responsive */
+@media screen and (max-width: 768px) {
+  header #page-header {
+    width: 100%;
+    display: block;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  header #main-navigation {
+    width: 100%;
+    display: block;
+    text-align: center;
+  }
+
+  .hero {
+    min-height: 300px;
+  }
+  .hero-content {
+    padding-top: 80px;
+  }
+  .hero-title {
+    font-size: 30px;
+  }
+  .hero-content p {
+    font-size: 16px;
+    margin-bottom: 30px;
+  }
+  .hero-content a {
+    font-size: 14px;
+    padding: 10px 15px;
+    border-width: 1px;
+    background: #ffffff;
+    color: #333333;
+  }
+
+  .service-box {
+    width: 100%;
+    display: block;
+  }
+
+  .testimonial-box {
+    width: 100%;
+    display: block;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
